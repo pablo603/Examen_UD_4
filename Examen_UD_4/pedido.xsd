@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsi:element name="pedido">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element name="pedido" maxOccurs="unbounded">
+                    <xsi:complexType>
+                        <xsi:sequence>
+                            <xsi:element name ="nom_trabajador" maxOccurs="unbounded"/>
+                            <xsi:element name ="fech_pedido" maxOccurs="unbounded"/>
+                            <xsi:element name ="ob_pedido" maxOccurs="unbounded"/>
+                            </xsi:complexType>
+                            </xsi:element>
+                        </xsi:sequence>
+                    </xsi:complexType>
+                </xsi:element>
+</schema>     

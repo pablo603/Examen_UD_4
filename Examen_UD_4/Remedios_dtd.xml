@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos SYSTEM "pedido.dtd">
+<pedidos>
+    <sucursal codigo = "C8765489">
+        <nom_trabajador> Pablo Holgado Barreno </nom_trabajador>
+        <fech_pedido> 20-5-2021 </fech_pedido>
+        <ob_pedido> urgente </ob_pedido>
+        <articulo codigo = "CFG-456">
+            <num_pedidos> 60 </num_pedidos>
+            <precio_unidad> 30 </precio_unidad>
+            <ob_articulo> buen estado </ob_articulo>
+            <plazo_revision> 30 dias </plazo_revision>
+        </articulo>
+    </sucursal>
+</pedidos>
+
+  
+
+
+       
+

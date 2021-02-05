@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT pedidos (sucursal)*>
+<!ELEMENT sucursal (nom_trabajador|fech_pedido|ob_pedido|articulo)*>
+<!ATTLIST sucursal codigo CDATA #IMPLIED>
+<!ELEMENT nom_trabajador (#PCDATA)>
+<!ELEMENT fech_pedido (#PCDATA)>
+<!ELEMENT ob_pedido (#PCDATA)>
+<!ELEMENT articulo (num_pedidos|precio_unidad|ob_articulo|plazo_revision)*>
+<!ATTLIST articulo codigo CDATA #IMPLIED>
+<!ELEMENT num_pedidos (#PCDATA)>
+<!ELEMENT precio_unidad (#PCDATA)>
+<!ELEMENT ob_articulo (#PCDATA)>
+<!ELEMENT plazo_revision (#PCDATA)>
